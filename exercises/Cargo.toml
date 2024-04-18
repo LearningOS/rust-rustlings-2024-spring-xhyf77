@@ -5,6 +5,15 @@ version = "5.5.1"
 
 [package.metadata.scripts]
 run_algorithm6 = "cargo run --bin algorithm6"
+run_algorithm8 = "cargo run --bin algorithm8"
+run_algorithm9 = "cargo run --bin algorithm9"
+run_algorithm10 = "cargo run --bin algorithm10"
+run_errors1 = "cargo run --bin errors1"
+run_errors2 = "cargo run --bin errors2"
+run_errors3 = "cargo run --bin errors3"
+run_errors4 = "cargo run --bin errors4"
+run_errors5 = "cargo run --bin errors5"
+run_errors6 = "cargo run --bin errors6"
 
 [[bin]]
 name = "algorithm"
@@ -13,3 +22,39 @@ path = "algorithm/algorithm7.rs"
 [[bin]]
 name = "algorithm6"
 path = "algorithm/algorithm6.rs"
+
+[[bin]]
+name = "algorithm8"
+path = "algorithm/algorithm8.rs"
+
+[[bin]]
+name = "algorithm9"
+path = "algorithm/algorithm9.rs"
+
+[[bin]]
+name = "algorithm10"
+path = "algorithm/algorithm10.rs"
+
+[[bin]]
+name = "errors1"
+path = "error_handling/errors1.rs"
+
+[[bin]]
+name = "errors2"
+path = "error_handling/errors2.rs"
+
+[[bin]]
+name = "errors3"
+path = "error_handling/errors3.rs"
+
+[[bin]]
+name = "errors4"
+path = "error_handling/errors4.rs"
+
+[[bin]]
+name = "errors5"
+path = "error_handling/errors5.rs"
+
+[[bin]]
+name = "errors6"
+path = "error_handling/errors6.rs"
