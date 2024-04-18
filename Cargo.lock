@@ -155,6 +155,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "exercises"
+version = "5.5.1"
+
+[[package]]
 name = "filetime"
 version = "0.2.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"

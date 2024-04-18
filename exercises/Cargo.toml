@@ -1,0 +1,15 @@
+[package]
+name = "exercises"
+description = "Small exercises to get you used to reading and writing Rust code!"
+version = "5.5.1"
+
+[package.metadata.scripts]
+run_algorithm6 = "cargo run --bin algorithm6"
+
+[[bin]]
+name = "algorithm"
+path = "algorithm/algorithm7.rs"
+
+[[bin]]
+name = "algorithm6"
+path = "algorithm/algorithm6.rs"
